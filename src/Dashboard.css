@@ -1,0 +1,29 @@
+.tileContainer{
+    display: flex;
+    margin: 16px 8px;
+  
+  }
+  
+.commonCard{
+    width: 280px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    margin: 0px 8px;
+    cursor: pointer;
+  }
+  
+  :local(.createDBCard){
+    background-color: #57b8dd;
+  }
+  
+  :local(.createSchemaCard){
+    background-color: #65e770;
+  }
+  
+  :local(.createDBUserCard){
+    background-color: #222b23;
+  }
